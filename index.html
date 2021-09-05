@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>JohnDoe</title>
+
+    <link rel="icon" type="image/png" href="img/favicon.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <div class="loader__container">
+      <div class="loader">
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+    <nav class="nav">
+      <div class="nav__img">
+        <img src="img/johnDoe.jpg" alt="John Doe" />
+      </div>
+      <ul class="nav__links">
+        <li class="nav__link">
+          <a href="#home">Home</a>
+        </li>
+        <li class="nav__link">
+          <a href="#aboutMe">About Me</a>
+        </li>
+        <li class="nav__link">
+          <a href="#myWork">My Work</a>
+        </li>
+        <li class="nav__link">
+          <a href="#contactMe">Contact Me</a>
+        </li>
+        <li class="nav__link">
+          <a href="signIn.html">signin</a>
+        </li>
+        <li class="nav__link">
+          <a href="admin.html">Amdminstration</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="container">
+      <section id="home" class="section home">
+        <div class="home__bg"></div>
+        <div class="home__content">
+          <div class="home__img">
+            <img class="img" src="img/webDev.jpg" alt="web dev" />
+          </div>
+          <div class="home__headers">
+            <h1>JohnDoe</h1>
+            <h2>Creative Web Developer At Your Service</h2>
+          </div>
+        </div>
+        <!-- Overlay -->
+        <div class="home__overlay"></div>
+      </section>
+      <section id="aboutMe" class="section aboutMe">
+        <div class="section__container">
+          <h1 class="section__title">About Me</h1>
+          <div class="section__body">
+            <h3>
+              My name is <strong>John Doe</strong> and, I'm a
+              <strong>Web Developer</strong>
+            </h3>
+            <p>
+              I consider my self a Full-Stack Web Developer ,I enjoy creating
+              functional and delightful experience that solve real humans
+              problems, whether that be websites, applications, or anything in
+              between. My goal is to always build products that provide
+              pixel-perfect, performant experiences.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="myWork" class="section myWork">
+        <div class="section__container">
+          <h1 class="section__title">My Work</h1>
+          <div class="section__body">
+            <div class="slide__container">
+              <button class="btn previousSlide" title="<">
+                <span><</span>
+              </button>
+              <button class="btn nextSlide" title=">">
+                <span>></span>
+              </button>
+              <div class="slide">
+                <h4>Work 1</h4>
+                <div class="slide__content">
+                  <img src="./img/1.jpg" alt="r one" />
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Dolore non quas voluptas inventore laborum. Vel, rem
+                    voluptates. Accusantium neque quo provident, quae, ea
+                    ducimus quam quas assumenda illo eum delectus.
+                  </p>
+                </div>
+
+                <a href="#" class="btn">Viste Link</a>
+              </div>
+              <div class="slide">
+                <h4>work 2</h4>
+                <div class="slide__content">
+                  <img src="./img/2.jpg" alt="r one" />
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Dolore non quas voluptas inventore laborum. Vel, rem
+                    voluptates. Accusantium neque quo provident, quae, ea
+                    ducimus quam quas assumenda illo eum delectus.
+                  </p>
+                </div>
+
+                <a href="#" class="btn">Viste Link</a>
+              </div>
+              <div class="slide">
+                <h4>Work 3</h4>
+                <div class="slide__content">
+                  <img src="./img/3.jpg" alt="r one" />
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Dolore non quas voluptas inventore laborum. Vel, rem
+                    voluptates. Accusantium neque quo provident, quae, ea
+                    ducimus quam quas assumenda illo eum delectus.
+                  </p>
+                </div>
+
+                <a href="#" class="btn">Viste Link</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contactMe" class="section contactMe">
+        <div class="section__container">
+          <h1 class="section__title">Contact Me</h1>
+          <div class="section__body">
+            <div class="form__container">
+              <form class="form">
+                <div class="form__img">
+                  <img src="./img/logo.png" />
+                </div>
+                <div class="form__group">
+                  <input type="text" class="form__input" placeholder="name" />
+                  <label for="name" class="form__label">name</label>
+                </div>
+                <div class="form__group">
+                  <textarea
+                    name="message"
+                    class="form__input"
+                    placeholder="message"
+                    rows="3"
+                  ></textarea>
+                  <label for="name" class="form__label">Message</label>
+                </div>
+                <button class="btn" title="Contact Me" type="submit">
+                  Contact Me
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="footer__left">
+          <div class="socials">
+            <span>Socials</span>
+
+            <a
+              href="https://www.facebook.com/oussama.sika"
+              class="socials__link"
+              style="--i: 1"
+            >
+              <span>
+                <i class="fab fa-facebook-square"></i>
+              </span>
+            </a>
+
+            <a
+              href="https://www.linkedin.com/in/oussama-si-kaddour-1535b8156/"
+              class="socials__link"
+              style="--i: 2"
+            >
+              <span>
+                <i class="fab fa-linkedin"></i>
+              </span>
+            </a>
+            <a
+              href="https://www.instagram.com/JohnDoe/"
+              class="socials__link"
+              style="--i: 3"
+            >
+              <span>
+                <i class="fab fa-instagram-square"></i>
+              </span>
+            </a>
+            <a
+              href="https://github.com/oussamaSikaddour"
+              class="socials__link"
+              style="--i: 4"
+            >
+              <span>
+                <i class="fab fa-github"></i>
+              </span>
+            </a>
+          </div>
+        </div>
+        <div class="footer__right">
+          All Rights Reserved By <img src="img/logo.png" alt="JohnDoe" />&copy;
+          <span class="year"></span>
+        </div>
+      </footer>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/loader.js"></script>
+  </body>
+</html>

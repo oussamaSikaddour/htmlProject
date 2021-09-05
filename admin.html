@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>OussSika</title>
+
+    <link rel="icon" type="image/png" href="img/favicon.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <div class="loader__container">
+      <div class="loader">
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+    <nav class="nav">
+      <div class="nav__img">
+        <img src="img/logo.png" alt="oussama si kaddour" />
+      </div>
+      <ul class="nav__links">
+        <li class="nav__link">
+          <a href="index.html">Home</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="container">
+      <section class="section admin">
+        <div class="section__container">
+          <h1 class="section__title">Amdminstration</h1>
+          <div class="section__body">
+            <div class="table__container">
+              <div class="table__action">
+                <button class="btn" id="myBtn">add</button>
+                <button class="btn">update</button>
+                <button class="btn">delete</button>
+              </div>
+
+              <table class="table">
+                <tr>
+                  <th>title</th>
+                  <th>discripiton</th>
+                  <th>img</th>
+                </tr>
+                <tr>
+                  <td>work 1</td>
+                  <td>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Provident magni, fuga dicta ratione recusandae eos ea ipsam,
+                    dolorum atque nam error voluptas unde corrupti odio! Dicta
+                    iusto doloremque aliquam cupiditate.
+                  </td>
+                  <td><img src="img/1.jpg" alt="work1" /></td>
+                </tr>
+                <tr>
+                  <td>work 2</td>
+                  <td>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Provident magni, fuga dicta ratione recusandae eos ea ipsam,
+                    dolorum atque nam error voluptas unde corrupti odio! Dicta
+                    iusto doloremque aliquam cupiditate.
+                  </td>
+                  <td><img src="img/2.jpg" alt="work2" /></td>
+                </tr>
+                <tr>
+                  <td>work 3</td>
+                  <td>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Provident magni, fuga dicta ratione recusandae eos ea ipsam,
+                    dolorum atque nam error voluptas unde corrupti odio! Dicta
+                    iusto doloremque aliquam cupiditate.
+                  </td>
+                  <td><img src="img/3.jpg" alt="work3" /></td>
+                </tr>
+                <tr>
+                  <td>work 4</td>
+                  <td>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Provident magni, fuga dicta ratione recusandae eos ea ipsam,
+                    dolorum atque nam error voluptas unde corrupti odio! Dicta
+                    iusto doloremque aliquam cupiditate.
+                  </td>
+                  <td><img src="img/1.jpg" alt="work4" /></td>
+                </tr>
+
+                <tr>
+                  <td>work 5</td>
+                  <td>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Provident magni, fuga dicta ratione recusandae eos ea ipsam,
+                    dolorum atque nam error voluptas unde corrupti odio! Dicta
+                    iusto doloremque aliquam cupiditate.
+                  </td>
+                  <td><img src="img/1.jpg" alt="work5" /></td>
+                </tr>
+
+                <tr>
+                  <td>work 6</td>
+                  <td>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Provident magni, fuga dicta ratione recusandae eos ea ipsam,
+                    dolorum atque nam error voluptas unde corrupti odio! Dicta
+                    iusto doloremque aliquam cupiditate.
+                  </td>
+                  <td><img src="img/1.jpg" alt="work6" /></td>
+                </tr>
+
+                <tr>
+                  <td>work 7</td>
+                  <td>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Provident magni, fuga dicta ratione recusandae eos ea ipsam,
+                    dolorum atque nam error voluptas unde corrupti odio! Dicta
+                    iusto doloremque aliquam cupiditate.
+                  </td>
+                  <td><img src="img/1.jpg" alt="work7" /></td>
+                </tr>
+
+                <tr>
+                  <td>work 8</td>
+                  <td>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Provident magni, fuga dicta ratione recusandae eos ea ipsam,
+                    dolorum atque nam error voluptas unde corrupti odio! Dicta
+                    iusto doloremque aliquam cupiditate.
+                  </td>
+                  <td><img src="img/3.jpg" alt="work8" /></td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div id="myModal" class="modal">
+      <!-- Modal content -->
+      <div class="modal__content">
+        <div class="modal__header">
+          <h2>Modal Header</h2>
+          <span class="close">&times;</span>
+        </div>
+        <div class="modal__body">
+          <div class="form__container">
+            <form class="form">
+              <div class="form__img">
+                <img src="./img/logo.png" />
+              </div>
+              <div class="form__group">
+                <input
+                  type="text"
+                  class="form__input"
+                  placeholder="Work Title"
+                />
+                <label for="title" class="form__label">Work Title</label>
+              </div>
+              <div class="form__group">
+                <textarea
+                  name="description"
+                  class="form__input"
+                  placeholder="Work Description"
+                  rows="3"
+                ></textarea>
+                <label for="name" class="form__label">Work Description</label>
+              </div>
+
+              <div class="form__group">
+                <input type="file" class="form__input" />
+              </div>
+              <button class="btn" title="Contact Me" type="submit">
+                add the work
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/loader.js"></script>
+    <script src="js/modal.js"></script>
+  </body>
+</html>
